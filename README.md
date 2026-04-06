@@ -12,20 +12,36 @@ Sistema de IA para ciberseguridad de una red de servidores distribuidos.
 
 ## Setup
 
+Con uv:
 ```bash
 uv sync
+```
+
+Con venv:
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Uso
 
 ```bash
+# uv
 uv run jupyter notebook proyecto2.ipynb
+
+# venv
+jupyter notebook proyecto2.ipynb
 ```
 
 ## Tests
 
 ```bash
+# uv
 uv run pytest
+
+# venv
+pytest
 ```
 
 ## Estructura
