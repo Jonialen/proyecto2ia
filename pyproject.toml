@@ -1,0 +1,15 @@
+[project]
+name = "proyecto2-ia"
+version = "1.0.0"
+description = "Proyecto 2 - CC3045 Inteligencia Artificial, UVG"
+requires-python = ">=3.11"
+dependencies = [
+    "networkx>=3.0",
+    "matplotlib>=3.7",
+    "jupyter>=1.0",
+    "nbconvert>=7.0",
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
